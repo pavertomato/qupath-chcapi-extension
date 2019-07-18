@@ -49,6 +49,6 @@ steps:
   - 'ACCESS_TOKEN'
 timeout: 600s
 secrets:
-- kmsKeyName: projects/gcp-healthcare-oss-test/locations/global/keyRings/default/cryptoKeys/github-robot-access-token
+- kmsKeyName: projects/healthcare-api-215503/locations/global/keyRings/test1/cryptoKeys/test1
   secretEnv:
-    ACCESS_TOKEN: CiQAM/SK3FUc1t+CnHDdgRzbc556FIyHddxRpsnolmSKfpiZ66sSUQDrEGO9gz15JIulryNagWzUOGbBEAaC04y85J8fNRjJZ8T8ntzh6Kt0Sa+GCG+3n5xSQdDJdj6xOG0LfVzvU+/K3mZ1KJlIcd0jiCeBrjYLlw==
+    ACCESS_TOKEN: CiQA9wyr22+2xni8cBEik0ps73qyR+OuZdolz5/Rh3OoPqFysLgSUQDxO4tcUUvhrJVYE0W+Z2H3t4xBObj1VI8UaKJklvz+q9axajYZKOe+wsn4zcELiDHg0p8T1Q6lllPOgYWaO1mSNIg/+8cBjlkMJGNYwERblg==
