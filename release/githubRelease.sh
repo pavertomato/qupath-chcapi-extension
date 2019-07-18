@@ -48,7 +48,7 @@ release_id="$(grep -wm 1 "id" /workspace/response.json \
 # Get JAR version from pom.xml
 jar_version="$(grep -m 1 "<version>" /workspace/pom.xml \
   | grep -Eo "[[:digit:]]+.[[:digit:]]+")"
-jar_name=" qupath-cloud-${jar_version}-jar-with-dependencies.jar"
+jar_name="qupath-chcapi-extension-${jar_version}.jar"
 # Upload JAR to GitHub releases page
 response_code="$(curl -# -X POST -H "Authorization: token ${TOKEN}" \
 -H "Content-Type:application/octet-stream" \
