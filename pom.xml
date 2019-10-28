@@ -26,7 +26,7 @@
     <dependency>
       <groupId>qupath</groupId>
       <artifactId>qupath-gui-fx</artifactId>
-      <version>0.2.0-m2</version>
+      <version>0.2.0-m4</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
